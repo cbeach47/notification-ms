@@ -12,7 +12,7 @@ You can run the `notification-ms` project locally (for development) or in a serv
 
 Use the following command to run `notification-ms` locally with the Spring Boot Maven Plugin:
 
-```
+```sh
 $ mvn spring-boot:run
 ```
 
