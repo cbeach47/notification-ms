@@ -20,10 +20,18 @@ $ mvn spring-boot:run
 
 ## Configuration
 
+### Tomcat Settings
+
+The `notification-ms` component uses an embedded Tomcat to present it's self as a web service.  Enter the tomcat configuration in `application.properties`. 
+
 ### Database Connection Settings
 
 The `notification-ms` component requires a database connection.  Enter standard JDBC/JPA connection
 settings in `application.properties`.
+
+### Log Settings
+
+The `notification-ms` component logs messages via SLF4J. Enter standard SLF4J configurations in `application.properties`.
 
 
 [Spring Boot Maven Plugin documentation]: https://docs.spring.io/spring-boot/docs/current/reference/html/using-boot-running-your-application.html#using-boot-running-with-the-maven-plugin
